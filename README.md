@@ -8,6 +8,6 @@ This repo describes how to train the tensorflow object detection api using your 
 * Protobuf
 * LabelImg
 
-> Install Anaconda Python 3.7
+> **Install Anaconda Python 3.7**
 
 
