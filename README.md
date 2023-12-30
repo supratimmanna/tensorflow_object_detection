@@ -72,3 +72,7 @@ TensorFlow/
      python object_detection/builders/model_builder_tf2_test.py
      ```
 > **Install LabelImg**
+Run the following command to install labelImg:
+```
+pip install labelImg
+```
