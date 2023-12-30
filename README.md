@@ -22,6 +22,7 @@ conda activate tensorflow
 ```
 
 > **Install TensorFlow**
+
 Run the following command to install tensorflow:
 ```
 pip install --ignore-installed --upgrade tensorflow==2.2.0
