@@ -4,8 +4,8 @@ This repo describes how to train the tensorflow object detection api using your 
 #### Requirements to use the tensorflow object detection api are following:
 * Anaconda Python 3.7
 * TensorFlow
-* TensorFlow Object Detection API
 * Protobuf
+* TensorFlow Object Detection API
 * LabelImg
 
   
@@ -26,4 +26,11 @@ conda activate tensorflow
 Run the following command to install tensorflow:
 ```
 pip install --ignore-installed --upgrade tensorflow==2.2.0
+```
+
+> **Install Protobuf**
+
+Run the following command to install tensorflow:
+```
+pip install protobuf
 ```
