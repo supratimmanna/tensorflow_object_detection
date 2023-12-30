@@ -19,9 +19,9 @@ This repo describes how to train the tensorflow object detection api using your 
 
 
 Create a new virtual environment for your work and activate the virtual environment.
-'''
+```
 conda create -n tensorflow pip python=3.8
-'''
+```
 
 > **Install TensorFlow**
 
