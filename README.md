@@ -34,3 +34,8 @@ Run the following command to install tensorflow:
 ```
 pip install protobuf
 ```
+
+Run the following command in a new terminal to check the installation of tensorflow.
+```
+python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+```
