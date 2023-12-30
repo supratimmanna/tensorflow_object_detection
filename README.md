@@ -59,8 +59,10 @@ TensorFlow/
 
 2. Step 2:
    - Installation of the Object Detection API is achieved by installing the object_detection package. This is done by running the following commands from within Tensorflow\models\research:
-   - ```
+     ```
      cd C:\Users\sglvladi\Documents\TensorFlow\models\research
+     
      cp object_detection/packages/tf2/setup.py .
+     
      python -m pip install
      ```
