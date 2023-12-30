@@ -41,7 +41,8 @@ python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1
 ```
 
 > **TensorFlow Object Detection API Installation**
-
+1. Step 1:
+   
 * Create a new folder under a path of your choice and name it TensorFlow. (e.g. C:\Users\sglvladi\Documents\TensorFlow).
 
 * From your Terminal **_cd_** into the TensorFlow directory.
