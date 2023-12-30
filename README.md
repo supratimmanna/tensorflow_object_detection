@@ -74,7 +74,8 @@ TensorFlow/
 > **Install LabelImg**
 
 Run the following command to install labelImg 
-- text in red:
+diff
+text in red:
 ```
 pip install labelImg
 ```
