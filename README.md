@@ -74,8 +74,8 @@ TensorFlow/
 > **Install LabelImg**
 
 Run the following command to install labelImg 
-diff
-text in red:
 ```
 pip install labelImg
 ```
+* To know more about how to use **_LabelImg_** to annotate the inages and create the required dataset go to this [link]{https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/2.2.0/training.html}
+  
