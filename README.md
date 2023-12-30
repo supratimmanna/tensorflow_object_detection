@@ -67,7 +67,7 @@ TensorFlow/
      python -m pip install
      ```
    - To test the installation, run the following command from within Tensorflow\models\research:
-      ```
+      ```python
      # From within TensorFlow/models/research/
      python object_detection/builders/model_builder_tf2_test.py
      ```
