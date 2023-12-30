@@ -43,12 +43,12 @@ python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1
 > **TensorFlow Object Detection API Installation**
 
 1. Step 1:
-   - Create a new folder under a path of your choice and name it TensorFlow. (e.g. C:\Users\sglvladi\Documents\TensorFlow).
+   - Create a new folder under a path of your choice and name it tensorflow_object_detection. (e.g. C:\Users\sglvladi\Documents\tensorflow_object_detection).
    - From your Terminal **_cd_** into the TensorFlow directory.
    - To download the models you can either use Git to clone the TensorFlow Models repository inside the TensorFlow folder, or you can simply download it as a ZIP and extract its contents inside the TensorFlow folder. To keep things consistent, in the latter case you will have to rename the extracted folder **models-master** to **models**.
    - You should now have a single folder named models under your TensorFlow folder, which contains another 4 folders as such:
 ```
-TensorFlow/
+tensorflow_object_detection/
 └─ models/
    ├─ community/
    ├─ official/
@@ -60,7 +60,7 @@ TensorFlow/
 2. Step 2:
    - Installation of the Object Detection API is achieved by installing the object_detection package. This is done by running the following commands from within Tensorflow\models\research:
      ```
-     cd C:\Users\sglvladi\Documents\TensorFlow\models\research
+     cd C:\Users\sglvladi\Documents\tensorflow_object_detection\models\research
      
      cp object_detection/packages/tf2/setup.py .
      
@@ -68,7 +68,7 @@ TensorFlow/
      ```
    - To test the installation, run the following command from within Tensorflow\models\research:
       ```bash
-     # From within TensorFlow/models/research/
+     # From within tensorflow_object_detection/models/research/
      python object_detection/builders/model_builder_tf2_test.py
      ```
 > **Install LabelImg**
@@ -79,3 +79,11 @@ pip install labelImg
 ```
 * To know more about how to use **_LabelImg_** to annotate the inages and create the required dataset go to this [link](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/2.2.0/training.html)
   
+
+> **How to start the training**
+
+Run the following command:
+```
+# From within tensorflow_object_detection/workspace/training_demo/
+python model_main_tf2.py --model_dir=models/my_ssd_resnet50_v1_fpn --pipeline_config_path=models/my_ssd_resnet50_v1_fpn/pipeline.config
+```
